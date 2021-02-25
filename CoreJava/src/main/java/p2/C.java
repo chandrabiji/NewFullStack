@@ -1,0 +1,17 @@
+package p2;
+
+import p1.A;
+
+public class C extends A{
+
+	public static void main(String[] args) {
+		C obj = new C();//instance
+		System.out.println("A = "+obj.a);
+		//System.out.println("B = "+obj.b);
+		System.out.println("C = "+obj.c);
+		//System.out.println("D = "+obj.d);
+
+
+	}
+
+}
